@@ -1,0 +1,12 @@
+pyspark==3.4.1
+sodapy==2.2.0 
+praw==7.7.1
+pandas==2.1.0
+numpy==1.24.3
+
+# Database
+neo4j==5.11.0
+
+# Configuration & Utilities
+pyyaml==6.0.1
+python-dotenv==1.0.0

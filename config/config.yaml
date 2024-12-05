@@ -1,0 +1,25 @@
+api_credentials:
+  chicago_data_portal:
+    app_token: "YOUR_APP_TOKEN"
+  
+  reddit:
+    client_id: "iEekwuyTe03NFgzuNIYhSw"
+    client_secret: "RCBZZ8WPVo1dPMCfuAZpAcB6zshxeQ"
+    user_agent: "ChicagoNightlife/1.0"
+
+data_sources:
+  venues:
+    - dataset_id: "xqx5-8hwx"
+    - dataset_id: "aksk-kvfp"
+
+  neighborhoods:
+    - dataset_id: "y6yq-dbs2"
+
+spark_config:
+  app_name: "ChicagoNightlife"
+  master: "local[*]"
+  
+neo4j_config:
+  uri: "bolt://localhost:7687"
+  user: "neo4j"
+  password: "your_password"
